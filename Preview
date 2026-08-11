@@ -1,0 +1,173 @@
+Hacker profiles, black-hats, white-hats, gray hats: preview.
+
+0) Laurie Wired (verified public technical figure) 
+
+Article notes:
+
+Skill depth: 8.5–9
+	Systems intuition: Very high Reverse engineering ability
+	High (publicly demonstrated): 
+	Communication skill Very high:
+	Longevity (public) ~2–5 years visible presence Confidence level
+	High (public repos, talks, content)
+
+Profile type:
+Modern high-skill security researcher + educator hybrid
+Evidence base: public GitHub + security content + technical breakdowns 
+
+2. Senior reverse engineers (industry veterans)
+
+Dimension, Rating, Skill depth, 9–10, Systems intuition. 
+
+Extreme, Exploit / malware understanding, Very high, Longevity
+10–25+ years, Confidence level, Very high, Profile type:
+Deep specialists who’ve seen real-world exploits, malware, and production failures repeatedly
+
+ 3. Mid-level security researchers
+Dimensions,Rating,Skill depth,7–9,Practical experience, High, Longevity, 5–15 years
+Confidence level,Medium–high,Profile type:
+
+Strong applied security engineers, often moving between industry + research
+
+ 4. General software engineers
+Dimension,Rating,Skill depth
+
+5–8 Systems depth
+Variable,Longevity
+
+1–20+ years
+Confidence level: High
+
+Profile type:
+Broad builders; not necessarily deep in reverse engineering or exploitation
+ 5. @gh05t5h311 (insufficient verified data category)
+Dimension
+Rating
+Skill depth
+Unknown (cannot verify)
+Systems intuition
+Unknown
+Longevity
+Unknown
+Confidence level
+Low
+Important classification rule (fairness constraint):
+No assumption of skill level without observable work (repos, writeups, talks, CVE work, tooling, etc.)
+So this category is:
+“Potentially anything from beginner → expert, but not classifiable publicly”
+📊 Where Laurie sits relative to “agents”
+If we map actual role equivalence:
+Closest matches to Laurie Wired:
+• 🧠 Mid-to-senior reverse engineers (modern tooling-heavy researchers) 
+• 🧠 Security researchers who specialize in: 
+o decompilation 
+o binary analysis 
+o exploit understanding 
+• 🧠 “systems explainer researchers” (rare hybrid role) 
+She is closer to practitioner-level security research than academic theory, and closer to reverse engineering tooling specialists than general software engineers.
+⚖️ Key fairness insight (important part)
+You asked for “all other people in the field,” but the honest constraint is:
+Skill can only be ranked when output is observable.
+So the fair system is:
+• Verified practitioners → ranked 
+• Known roles → compared 
+• Pseudonymous accounts → unranked unless evidence exists 
+That prevents false precision.
+🧠 Final distilled view
+• Laurie Wired = high-skill, high-clarity, modern security/reverse engineering practitioner 
+• Senior industry vets = deeper longevity-based intuition 
+• Unknown accounts = cannot be reliably placed without evidence 
+If you want, I can upgrade this into a “skill graph” (like a radar chart with axes: reverse engineering,
+📊 1. Laurie Wired (security + systems educator/researcher hybrid)
+RE      █████████░ 9
+SYS     █████████░ 8.5
+CODE    ████████░░ 8
+SEC     █████████░ 9
+THEORY  ███████░░░ 7
+CLARITY ██████████ 10
+LONG    █████░░░░░ 4
+Profile shape:
+High technical + extremely high communication + moderate longevity
+📊 2. Senior Reverse Engineer (industry veteran)
+RE      ██████████ 10
+SYS     ██████████ 10
+CODE    █████████░ 9
+SEC     ██████████ 10
+THEORY  ████████░░ 8
+CLARITY ███████░░░ 7
+LONG    ██████████ 10
+Profile shape:
+Maximum depth, slightly lower clarity due to assumed audience
+📊 3. Mid-Level Security Researcher
+RE      ████████░░ 8
+SYS     ████████░░ 8
+CODE    ████████░░ 8
+SEC     ████████░░ 8
+THEORY  ███████░░░ 7
+CLARITY ████████░░ 8
+LONG    ███████░░░ 6
+Profile shape:
+Balanced practitioner profile, strong general competence
+📊 4. General Software Engineer
+RE      ██████░░░░ 6
+SYS     ███████░░░ 7
+CODE    ████████░░ 8
+SEC     ██████░░░░ 6
+THEORY  ███████░░░ 7
+CLARITY ████████░░ 8
+LONG    ████████░░ 7
+Profile shape:
+Broad builder profile, less specialized in security/reverse engineering
+📊 5. @gh05t5h311 (insufficient verified data)
+RE      ? 
+SYS     ? 
+CODE    ? 
+SEC     ? 
+THEORY  ? 
+CLARITY ? 
+LONG    ?
+Profile rule:
+No visible signal → no classification allowed without evidence
+This is important because otherwise the model would just be guessing.
+🧠 What this graph actually shows
+1. Laurie Wired’s position
+She forms a rare hybrid shape:
+• Very high in: 
+o RE (reverse engineering) 
+o SEC (security intuition) 
+o CLARITY (explanation ability) 
+• Lower in: 
+o LONG (pure longevity vs veterans)
+So she looks like:
+“modern high-skill practitioner + educator”
+2. Veteran engineers look different
+They dominate:
+• SYS 
+• RE 
+• LONG 
+But are usually lower in:
+• CLARITY (on average, not always) 
+So they are:
+“deep but less explainable”
+3. The key insight
+These profiles aren’t “better vs worse.”
+They are different shapes of intelligence in practice:
+• Laurie-type → high clarity + strong modern skill 
+• Veteran RE → maximum depth + accumulated edge cases 
+• SWE → breadth + production engineering 
+• Unknown accounts → no measurable signal yet. 
+
+^^ Thought's of ChatGPT, when asked about her compared to other people...  not entirely accurate but it is fair to say she has a high level of skill and is most importantly a person that can make complex topics: simple.
+
+
+It's not entirely the point of the article but did want to ask an LLM how it could compare her to others skill wise as to correct any observation bias for the it  Will do the same for grok and maybe Gemini (but that feels a bit cheap(on my part) as she works for google.
+Perhaps there are other people that can write on this simply looking at the body of work she has done over a greatly short amount of time, if It can't be done then that's fine. The point of it was not to show off in any way but simply point out how import she is to this industry: it is after all a community where your value is based on nothing more than your effort and results to it.
+
+To that end she makes the perfect study for me as a Jr to look at as an example and say "OK this is a person that has value". To really understand that you need to see her work check this talk out: [placeURL], it was one of her early wins and really illustrates how bad malware authors can actually be when it comes to obfuscation (or lack thereof as the case may be), when you consider that this was on the play store for some time it does bring in to question google and their review process. Because if there where more complex attacks have taken place. this still caught allot of people off guard and is still an issue today. 
+
+Google has a program called "bouncer" and is and interesting bit of software that aims to find anything deemed to be malicious: but as many people have proven over the years: it is very easy to trick and get your code to play nice with when in it, then be really mean when on a real phone. Due to the work she did: this kind of proves that it is not as secure as their marketing team say that it is. Though if you really want to see how bad that can get check out John Overhide's work on it where he proved that simple tricks that all basic security people knew about in the 00's can get horrific things to happen. One example of this is that it can hide dll's (on older android versions) because of the fact that there was no code signing used in this process  and that makes getting code to act badly very easy if google can't see what it is doing and then it just grabs down a URL(to load the dll), then there is not much they can do to stop this with no real verification of the code. This as a combo with the fact that bouncer can be tricked into loading bad things(mostly because malware can tell it's in bouncer(again go read Johns work)), it makes for a nasty attack path for bad actors.
+
+
+Really it feels cheap to blame some of these systems and benchmark them on such things in a way because they are not motivated by security: but more profit and functionality: which any security person worth their salt; knows kills security. It is an age old problem that we keep having in security that defines the internal battle between people in tech, we want people to make cool things and so it's NOT cool of us to simply finger wag and call people "idoits"(be that true or not): because all bit's aside (pun intended). One of the best reasons for this other than it is simply not nice to disagree by insulting someone: is that we depend on this side of things in order to function. There is no securing the technology if it does not exit? 
+
+This is a very complicated issue and something I wanted to merely highlight in the preview as this profile is about @LaurieWired as she likes to unpack things with complexity. However this is not really a full profile on her. I have a whole series of Hacker's from Jeremy Hammond, to Barnaby Jack and all other people between: but for this preview, i wanted to start with Laurie. 
